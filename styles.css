@@ -74,7 +74,7 @@ li {
 }
 
 #header-cat {
-    animation: rotation 2s infinite linear;
+    animation: rotation 2s infinite ease-in-out;
 }
 
 /* What are cats? Section */
@@ -82,7 +82,7 @@ li {
 #what-cats {
     letter-spacing: .15em;
     color: black;
-text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #000000
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #000000
 }
 
 .text-section p {
@@ -181,4 +181,8 @@ footer {
 #pussy {
     font-style: italic;
     letter-spacing: .15em;
+}
+
+#clickable {
+    cursor: pointer;
 }
