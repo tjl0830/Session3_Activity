@@ -125,7 +125,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #000000
 	background-color:#599bb3;
     border: 5px dashed white;
 	border-radius:20px;
-    border-width: 10px 0px;
+    border-width: 3px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -156,7 +156,7 @@ footer {
 /* Panglahatan */
 
 #transparent {
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 #bold {
@@ -175,4 +175,9 @@ footer {
     font-size: 150%;
     background: transparent;
     text-decoration: line-through;
+}
+
+#pussy {
+    font-style: italic;
+    letter-spacing: .15em;
 }
