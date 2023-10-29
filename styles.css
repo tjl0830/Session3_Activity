@@ -8,6 +8,11 @@
     margin-right: auto;
 }
 
+article img {
+    border: solid gray;
+    border-radius: 20px;
+}
+
 article {
     min-width: 600px;
     width: 50%;
